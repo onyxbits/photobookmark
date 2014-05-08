@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Foto Lesezeichen</string>
+	<string name="title_activity_bookmark">Foto Lesezeichen</string>
+	<string name="msg_too_many">Maximal %1$d Bilder!</string>
+
+</resources>
