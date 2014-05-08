@@ -10,6 +10,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.provider.MediaStore;
 import android.util.Log;
+import android.widget.Toast;
 
 public class BookmarkTask extends AsyncTask<Uri, Object, Object> {
 
@@ -33,6 +34,7 @@ public class BookmarkTask extends AsyncTask<Uri, Object, Object> {
 	}
 	
 	protected void onPostExecute(Object result) {
+		Toast.makeText(activity,R.string.msg_bookmarked,Toast.LENGTH_SHORT).show();
 		activity.finish();
 	}
 

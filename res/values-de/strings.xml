@@ -4,5 +4,6 @@
 	<string name="app_name">Foto Lesezeichen</string>
 	<string name="title_activity_bookmark">Foto Lesezeichen</string>
 	<string name="msg_too_many">Maximal %1$d Bilder!</string>
+	<string name="msg_bookmarked">Lesezeichen erstellt!</string>
 
 </resources>
